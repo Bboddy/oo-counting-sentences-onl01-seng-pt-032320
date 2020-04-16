@@ -16,6 +16,6 @@ class String
 
   def count_sentences
     i = 0 
-    if self.contains
+    if self.include? 
   end
 end
