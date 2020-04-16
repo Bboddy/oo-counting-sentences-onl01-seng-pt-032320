@@ -19,5 +19,6 @@ class String
     if self.include? "." || "?" || "!" 
       i+=1 
     end
+    return i
   end
 end
