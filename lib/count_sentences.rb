@@ -27,7 +27,6 @@ class String
   end
 
   def count_sentences
-    i = 0 
-    self.scan("i")
+    return self.index(".")
   end
 end
