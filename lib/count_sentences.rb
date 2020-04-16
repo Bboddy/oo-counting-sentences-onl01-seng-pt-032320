@@ -28,6 +28,6 @@ class String
 
   def count_sentences
     i = 0 
-    self.count("i")
+    self.scan("i")
   end
 end
