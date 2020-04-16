@@ -17,5 +17,6 @@ class String
   def count_sentences
     i = 0 
     if self.include? "." || "?" || "!" 
+      
   end
 end
