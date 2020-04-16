@@ -27,6 +27,6 @@ class String
   end
 
   def count_sentences
-    return self.index(".")+self.index("?")+self.index("!")
+    return self.scan(/[.?!]/).count
   end
 end
