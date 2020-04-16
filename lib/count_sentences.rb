@@ -28,9 +28,6 @@ class String
 
   def count_sentences
     i = 0 
-    if self.include? "." || "?" || "!" 
-      i+=1 
-    end
-    return i
+    self.count("i")
   end
 end
